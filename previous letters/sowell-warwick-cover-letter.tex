@@ -1,0 +1,96 @@
+\documentclass[11pt]{letter}
+
+\usepackage{textcomp}
+
+\usepackage{graphicx}
+
+\usepackage{apacite}
+\usepackage{paralist}
+
+\usepackage[normalem]{ulem}
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep}
+\setlist[enumerate]{noitemsep}
+
+\usepackage{hyperref}
+\usepackage[letterpaper, total={6.5in, 9in}]{geometry}
+
+\usepackage{etoolbox}
+
+\makeatletter
+% If pagestyle is firstpage, remove old placement of date
+\patchcmd\opening{{\raggedleft\@date\par}}{}{}{}
+% If pagestyle is empty, remove vertical space after addess
+\patchcmd\opening{\fromaddress \\*[2\parskip]}{\fromaddress}{}{}
+% If pagestyle is empty, remove old placement of date
+\patchcmd\opening{\@date \end{tabular}\par}{\end{tabular}\par}{}{}
+
+
+\signature{Jesse H. Sowell II}
+
+\address{ 2201 Crescent Pointe Parkway, Apt. 4302 \\
+          College Station, TX 77845 \\ 
+          \href{mailto:jesse.sowell@gmail.com}{jesse.sowell@gmail.com} \\
+          m: +1 (517) 214-1900}
+
+% \date{20 September 2017}
+
+\begin{document}
+
+\begin{letter}{ Faculty Search Committee \\
+                Warwick Manufacturing Group \\
+                University of Warwick                 
+              }
+\vspace{-2 \baselineskip}
+\opening{Dear Faculty Search Committee,}
+
+
+% Add my explicit research, for instance
+% Relevance to critical infrastructure at the start
+% Ultimately my which has looked into blah blah, complements WMG blah blah
+
+
+I am writing to express my interest in the position of Associate Professor of Security Engineering in the WMG at the University of Warwick. 
+%
+Currently I am an Assistant Professor in the
+Department of International Affairs at Texas A\&M's Bush School of
+Government and Public Service, where I was hired to continue my work on  interdisciplinary approaches to transnational cybersecurity and critical infrastructure development.
+%
+Previously, I was a Postdoctoral Cybersecurity Fellow at Stanford after completing my PhD in Technology, Management, and Policy at MIT in 2015.
+%
+I am excited to see the WMG has identified security engineering as an  interdisciplinary endeavor integrating trustworthy computing and privacy as necessary to securing smart critical infrastructures and manufacturing processes.
+%
+My intrinsically interdisciplinary training---integrating computer science and Internet operations, criminology, industrial political economy, and on-the-ground (operational) cybersecurity---is exceptionally aligned with the WMG's vision of security engineering.
+
+My research integrates 
+% contemporary security policy issues such as the 
+the evaluation of real-time cybersecurity incident management 
+with novel conceptual frameworks for adaptive
+resource management and governance of complex engineering systems. 
+%
+For instance, my work on closed, private institutions for security information sharing necessary to mitigate transnational cybersecurity incidents is an understudied, yet fundamental, aspect of ensuring the trustworthiness of Internet communications and critical infrastructure.
+%
+Ultimately my research is motivated by the fact that, globally,
+emerging digital technologies and complex engineering systems rely on industry collaborations that sustain the
+security, stability, and integrity of the Internet's
+infrastructure.  My work highlights the critical need to understand and engage these
+understudied industry groups and institutions to help fill the gaps necessary to solving emerging, real-world, critical infrastructure security problems. 
+%
+% Building on this research experience, I have taken active roles in
+% several transnational cybersecurity stakeholder groups, helping them
+% engage more actively with the policy community on issues such as developing dynamic responses to IoT threats and implications of ongoing
+% implementation of the GDPR.
+%
+In my supporting statement, I highlight how my existing research lines can bring in novel research partnerships, complement the WMG's existing work, and how I plan to develop these into research programs supporting the work of WMG's existing faculty, postdocs, students, and industry partners. 
+
+In these supporting materials, I have enclosed my supporting statement and an additional reference from industry leadership highlighting my research, engagement, and leadership in cybersecurity and Internet operations communities.
+%
+Thank you for your time and consideration, please do not hesitate to contact me at \href{mailto:jesse.sowell@gmail.com}{jesse.sowell@gmail.com} or +1 (517) 214-1900 if you have additional questions.
+
+
+\closing{Sincerely,}
+
+
+\end{letter}
+\end{document}

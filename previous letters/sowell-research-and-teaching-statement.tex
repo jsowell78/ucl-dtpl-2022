@@ -1,0 +1,1431 @@
+% \documentclass[technote,letterpaper,twocolumn]{IEEEtran} 
+%\documentclass[12pt,technote,letterpaper,onecolumn,twoside,draftcls]{IEEEtran}
+\documentclass[12pt,journal,compsoc,letterpaper,onecolumn,twoside]{IEEEtran}
+
+\usepackage{comment}
+
+\usepackage{endnotes}
+\usepackage{balance}
+
+\usepackage{hyperref}
+
+\usepackage[T1]{fontenc}
+% \usepackage{tgschola}
+
+\usepackage{textcomp}
+
+\usepackage{graphicx}
+
+\usepackage{apacite}
+\usepackage{paralist}
+
+% \date{\today}
+
+% \oldstylenums{1234}
+
+\begin{document}
+
+\title{Public Policy and Knowledge Assessment in
+  Internet Infrastructure Resource Management} 
+\author{Jesse H. Sowell}
+
+
+% \author{Michael~Shell,~\IEEEmembership{Member,~IEEE,}
+%         John~Doe,~\IEEEmembership{Fellow,~OSA,}
+%         and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+% \IEEEcompsocitemizethanks{\IEEEcompsocthanksitem M. Shell is with the Department
+% of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
+% GA, 30332.\protect\\
+% % note need leading \protect in front of \\ to get a newline within \thanks as
+% % \\ is fragile and will error, could use \hfil\break instead.
+% E-mail: see http://www.michaelshell.org/contact.html
+% \IEEEcompsocthanksitem J. Doe and J. Doe are with Anonymous University.}% <-this % stops an unwanted space
+% \thanks{Manuscript received April 19, 2005; revised September 17, 2014.}}
+
+
+% % The paper headers
+% \markboth{Journal of \LaTeX\ Class Files,~Vol.~13, No.~9, September~2014}%
+% {Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer Society Journals}
+% % The only time the second header will appear is for the odd numbered pages
+% % after the title page when using the twoside option.
+% % 
+% % *** Note that you probably will NOT want to include the author's ***
+% % *** name in the headers of peer review papers.                   ***
+% % You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% % you desire.
+
+% for Computer Society papers, we must declare the abstract and index terms
+% PRIOR to the title within the \IEEEtitleabstractindextext IEEEtran
+% command as these need to go into the title area created by \maketitle.
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+
+My research started with the inquiry ``Who
+manages the Internet infrastructure and how?''  
+%
+% My research evolved into ongoing studies of the political economy
+% of Internet operations.
+%
+% My work is rooted in a novel combination of technical mechanics \emph{and}
+% political economy. 
+%
+% The answer: 
+Participants in a transnational constellation of function-specific, non-state
+institutions, referred to as the Number Resource System (NRS), sustain
+resources supporting Internet connectivity.
+%
+The how: NRS participants have historically operated ``underneath the hood,'' using
+consensus-based knowledge assessment processes to combine lessons from
+daily operations \emph{and} ad hoc
+crisis management into, thus far, stable norms and rules
+that sustain the integrity of the
+Internet's numbers and routing system. 
+%
+% The integrity of Internet connectivity 
+% % critical to national economies 
+% is sustained by a constellation of transnational,
+% function-specific institutions, referred to here as the Number
+% Resource System (NRS).
+% %
+% % The NRS 
+% % has developed a family of credible knowledge assessment processes
+% % that maintain the norms and rules supporting both ad hoc crisis
+% % management and institutional adaptation apace with the Internet's infrastructure.
+% %
+% Thus far the NRS has functioned effectively
+% ``underneath the hood,'' demonstrating ad hoc crisis management
+% capabilities, rooted in adaptive, consensus-based credible knowledge
+% assessment processes used to ensure norms and rules keep pace with
+% innovation in the Internet's infrastructure. 
+%
+While successful thus far, renewed regulatory and policy interest in Internet connectivity and
+security is introducing political demands historically outside the
+technical and operational scope of
+the NRS.
+%
+% Learning how to 
+% \begin{inparaenum}[\itshape 1\upshape)]
+%   \item navigate the global \emph{political} arena,
+%   \item develop political legitimacy, and 
+%   \item better engage with conventional
+%     enforcement agencies
+% \end{inparaenum}
+% are new political capabilities the NRS must develop.
+%
+International relations
+orthodoxy asserts that any authority not rooted in the state is
+\emph{competing with} the state.
+%
+States covet the NRS's adaptive capabilities, 
+but predatory rule threatens to undermine the
+contingent authority and knowledge assessment processes that sustain
+those adaptive capabilities.
+%
+I argue for an alternative political arrangement: operational
+authorities' anticipation and 
+adaptation capabilities can be \emph{complementary to} states'
+capabilities.
+%
+
+% Conventional international relations asserts that any authority not
+% rooted in the state is \emph{competing with} state authority---the conclusion
+% of my dissertation, and ongoing studies, argue that operational authorities,
+% especially their anticipation and adaption capabilities, can be quite
+% \emph{complementary} to state authority.
+%
+
+
+% My work builds on property rights and common resource theory to
+% explain how these operational institutions, highlighting these
+% institutions  
+
+Arguing for complementarity requires understanding the internal  
+political mechanics of the NRS.
+%
+Routing standards and tacit operational
+knowledge are the foundations of \emph{technical} mechanics.
+% that ensures connectivity within the network of (largely) private
+% networks that comprise the modern Internet.
+%
+% My dissertation explains the constellation of institutions that manage
+% the complex of common and private resources underlying the numbering
+% and routing system.
+%
+% To understand political mechanics, operational practices are
+% operationalized in terms of 
+I reframe these foundations in terms of political economy
+theory---property rights, 
+externalities, epistemic communities, and common
+resource management---to develop an integrated vernacular
+for examining and explaining the NRS's \emph{political} mechanics.
+% within and across NRS institutions.
+%
+% The common, theory-based vernacular developed in the dissertation is
+% used to explain the 
+% interdependencies and tensions within the NRS. as a constellation of
+% function-specific operational \emph{authorities}.
+%
+Empirical studies, firmly grounded in fieldwork,
+use this vernacular to explain and evaluate family resemblances
+within and across NRS institutions: 
+%
+% Bridging the gap to institutional mechanisms, management of these
+% technical elements is framed in terms of property rights and common
+% resource management (in the sense of Ostrom).
+%
+% These foundations provide the conceptual baseboards for empirical
+% studies that 
+% describe, explain, and evaluate a transnational complex of non-state,
+% function-specific institutions that collectively ensure
+% the integrity of connectivity within the Internet's infrastructure.
+%
+\begin{inparaenum}[\itshape 1\upshape)]
+  \item uncertainties manifest as negative externalities, 
+    damaging resource systems managed by the NRS;   
+  \item consensus processes draw on knowledge commons and operational
+    experience to develop rules and
+    norms for characterizing, mitigating, and
+    remediating these externalities;   
+  \item NRS participants engage in \emph{mutual} 
+    enforcement to deter negative externalities.
+\end{inparaenum}
+%
+% Taken together, the NRS is a transnational constellation of
+% function-specific institutions that 
+% assesses uncertainties in the numbers and routing system and that has
+% successfully adapted to sustain the
+% integrity of the Internet's numbering and routing system.
+%
+Not only adaptive, these feedback processes adapt \emph{apace with}
+infrastructure innovation.
+
+Consensus-based knowledge
+assessment is at the heart of these capabilities.
+%
+Consensus processes evaluate and adapt (common) resource
+management rules to
+cope with uncertainties stemming from changing resource demands and
+patterns of use in the broader Internet industry.
+%
+Across the NRS, politically fungible voting
+is eschewed as a knowledge assessment process.
+%  in favor of reconciling constructive conflict
+% among domain experts.
+%
+Under the family of consensus processes here, asserting (voting) ``No, I
+do not agree,'' is insufficient. 
+%
+Credible contributions require a rationale that, through evaluative
+policy dialogues 
+that \emph{encourage} constructive
+conflict, either fit or update communities'
+authoritative knowledge of resource system dynamics.
+%
+% Contributions that fail this first test are not considered, they do
+% not contribute to the ongoing consensus.
+%
+Shallow compliance via a marginal ``51--49 victory'' is not consensus.
+%
+Mutual enforcement requires credible commitments from
+participants that must both adhere to \emph{and} enforce community rules.
+%
+As such, consensus often demands $>70$\% of credible contributors agree,
+building commitment by reconciling technical critiques with dissenting minority
+contributors.
+
+
+Faced with this relatively foreign consensus process, regulators and policy makers familiar with fungible
+voting economics and the political dynamics of issue-tying create legitimacy
+issues for the NRS.
+%
+My ongoing public policy work addresses this problem by 
+characterizing  successful, albeit nascent, coordination mechanisms
+between conventional and operational authorities, generalizing these
+to design more durable mechanisms that 
+\begin{inparaenum}[\itshape 1\upshape)]
+  \item foster familiarity with consensus processes,
+  \item avoid perceived competition over authority, and 
+  \item enhance complementarity across authorities' distinct 
+    capabiltiies. 
+\end{inparaenum}
+%
+My two current research programs, understanding
+interconnection platform economics (Section~\ref{sec:topology}) and characterizing malware value
+networks (Section~\ref{sec:mvn}), continue my industry fieldwork
+to elicit tacit knowledge valuable to 
+policy makers (characterizing institutional supply), then frame 
+this knowledge in a vernacular familiar to 
+policy makers (stimulating demand for
+operators' capabilities).
+%
+For instance, the malware value networks (MVN) model builds on rich technical case studies
+of mitigation and remediation
+familiar to 
+operational security communities, but reframe the dynamics as value
+networks akin to organized crime or drug trafficking networks already
+familiar to policy makers and law enforcement.
+
+
+ 
+
+
+% A key capability across this institutional complex, and the source of
+% adaptation rooted in access to unique operational knowledge, is the
+% family of credible
+% knowledge assessment processes that have been developed to cope with
+% the endemic uncertainties that arise in the operation of the
+% Internet's numbering and routing system.
+% %
+% Returning to the challenge above, knowledge assessment is 
+
+% In contrast to conventional international relations orthodoxy that
+% states any authority not rooted in the state is \emph{competing} with the
+% state, I argue that the NRS's unique operational authority can be
+% \emph{complementary} to state authority. 
+% %
+% My ongoing work focuses on how this institutional complex's deep operational knowledge and knowledge 
+% assessment processes can serve as credible policy
+% advise to state actors concerned with the security and stability of an
+% Internet.
+%
+
+
+
+
+
+
+% My dissertation work is rooted in qualitative methods for developing
+% case studies and extensive fieldwork.
+% %
+% Much of my teaching experience is in the policy realm.
+% %
+% My teaching statement (Section~\ref{sec:teaching}) describes my
+% teaching experience, courses I would like to develop or contribute to,
+% and my general teaching philosophy.
+% %
+% I am particularly interested in developing students'
+% qualitative methods capabilities as a complement to more traditionally
+% widespread quantitative methods.
+% %
+% I believe this will contribute to a greater understanding of how
+% methods like industrial anthropology can 
+% be applied to evaluating industry structures, how knowledge is
+% created, evaluated, and disseminated by industry actors, and how this
+% knowledge can be brought to bear in credible risk analyses and public
+% policy development.
+
+
+  
+\end{abstract}
+
+% % Note that keywords are not normally used for peerreview papers.
+% \begin{IEEEkeywords}
+% Computer Society, IEEEtran, journal, \LaTeX, paper, template.
+% \end{IEEEkeywords}
+}
+
+
+\maketitle
+
+
+% \section{Research Statement: Security Dilemmas and Knowledge
+%   Assessment in Internet 
+%   Infrastructure Resource Management} 
+
+\IEEEPARstart{I}{n broad strokes,} my research can be framed as the industrial political economy of
+Internet operations.
+%
+Who precisely are the actors underneath the hood?
+%
+Is ``ad hoc'' crisis management stable?
+%
+What are the institutions at play?
+%
+How do these institutions sustain credible knowledge assessment
+necessary to keep 
+pace with innovation in the Internet's infrastructure?
+%
+Are these non-state actors' incentives aligned with the public interest?
+%
+What are the challenges to these unique operational authorities engaging
+with conventional state authorities and policy makers in national and
+global political arenas?
+%
+The following sections offer my answers to these questions by describing   
+%
+\begin{inparaenum}[\itshape 1\upshape)]
+  \item the distribution of operational management capabilities across
+    the NRS and conventional state authorities; 
+  \item the outcomes of my dissertation, summarizing theory and
+    empirical contributions that contribute to explaining credible knowledge
+    assessment; and  
+  \item two recent research programs I have been developing to bridge
+    the gap between epistemic knowledge sustained by operational
+    authorities and public policy 
+    makers. 
+\end{inparaenum}
+
+\section{Operational Management Capabilities, Security, and
+  Knowledge Assessment} \label{sec:capabilities}
+
+In 2008 Pakistan attempted to censure its citizens' access to YouTube.  
+%
+Routes intended to blackhole requests originating 
+\emph{in-country} leaked,
+creating an externality that blocked YouTube access \emph{globally}. 
+%
+In \emph{three hours} the transnational network operator community restored
+the legitimate route, and, subsequently, global access to YouTube.\footnote{See \citeA{brown2008pakistan} for a step-by-step
+  analysis.}  
+%
+To the casual observer, YouTube-Pakistan is yet
+further evidence of a ``self-healing'' Internet. 
+%
+Among operators,
+YouTube-Pakistan was just another day ensuring routing system
+integrity.\footnote{The
+  Pakistan-YouTube narrative is a canonical case of resource
+  hijacking.  It is a well-known phenomena in the routing system; see
+  \cite{toonk2014turkey, carstensen2014googles} for discussion of 
+  recent events.  \citeA{cowie2008brazil} asserts that ``[i]n
+  practice, most leaks [hijacks] tend  to fall into two categories,
+  depending on whether they propagate: well-localized to a single
+  regional customer space, or planetwide.'' 
+  My dissertation characterizes leaks and hijacks as two of multiple
+  classes of operational and security externalities facing the routing
+  system.}
+%
+Although seemingly ``organic,'' such ad hoc crisis management is firmly
+rooted in institutionalized norms.
+%
+These norms are continuously developed and
+adapted by 
+operators, underneath the hood, based on operational insights into
+emergent uncertainties, yet apace with Internet growth. 
+%
+\textbf{\emph{The result: adaptive non-state institutions are \textbf{the}
+  agents ensuring Internet resource integrity critical to national economies.}}
+
+
+States covet operators' resource management capabilities, but
+fundamentally misunderstand the function-specific constellation of
+authorities sustaining resource management and 
+the knowledge assessment capabilities necessary for real-time
+mitigation of externalities such as YouTube-Pakistan.
+%
+Public facing ``Internet
+governance'' institutions, such as the Internet Corporation for
+Assigned Names and Numbers (ICANN) and the Internet Governance Forum
+(IGF), exacerbate this misunderstanding,
+bandying about 
+terms like ``cyber'' and ``multistakeholderism,'' confounding
+transnational social activism and cyber-libertarian ideals perpetuated
+\emph{on} 
+the Internet with more narrowly-scoped, non-discriminatory
+resource management issues the NRS deals with \emph{in} the Internet's
+infrastructure.\footnote{This assertion warrants some nuance.  The
+  dissertation focused on the institutions managing the ``glue'' that
+  holds the Internet together as a network of (largely) private
+  networks, together---the Internet Protocol (IP) numbering (address)
+  and routing 
+  system, referred to here as the Number Resource System (NRS).
+  Although ICANN's name implies management of numbers, it has
+  historically played a titular role coordinating number rights
+  delegations to the regional registries, where substantive-purposive
+  authority, in the sense of \citeA{flathman1980authority}, to
+  delegate numbers and develop 
+  resource policy resides.  See Chapter~5 of \citeA{sowell2015finding}
+  for an extensive discussion. 
+  Routes describe 
+  how to direct 
+  traffic, not how traffic is priced and/or the discriminatory character
+  of traffic management.  Issues of discriminatory access to infrastructure
+  resources, such as zero-rating, are interesting topics in the larger scope
+  of my research, but were not the focus of the dissertation work.} 
+%
+States and public policy makers see adaptation and 
+resilience in the outcomes of infrastructure management decisions and
+ad hoc crisis management, but
+the means to harness the 
+attendant authority, or even engage the NRS's operational authorities, has remained largely elusive. 
+%
+One-off solutions can be found, but they are fragile; ongoing work
+(discussed shortly)
+aims to learn from these to design more durable solutions.
+
+
+A key global policy dilemma in Internet infrastructure management is
+reconciling the distribution of 
+management capabilities and access to commonly managed resources among
+state and operational authorities.
+%%
+% The linchpin in this problem is  sufficiently adaptive knowledge
+% assessment processes necessary to keep pace with the innovation
+% continuously driving changes in the Internet's infrastructure topology.
+%
+Efficacious management of the NRS requires 
+\begin{inparaenum}[\itshape \upshape(1\upshape)] 
+  \item access to commonly managed resources and private
+    infrastructure;  
+  \item tacit operational knowledge held almost exclusively by industry; 
+  \item resource policy making processes that adapt apace with
+    innovation in the Internet's infrastructure;
+  \item legitimacy in national and global political arenas; and 
+  \item credible enforcement capabilities.
+\end{inparaenum}
+%
+For the most part, the non-state resource management institutions in
+which industry operators
+participate hold the
+first three 
+capabilities; conventional policy makers and state actors hold the latter two
+capabilities.
+%
+Stated in classical economic terms, each of these two distinct types
+of political 
+authorities, conventional state authorities and transnational
+operational authorities, have a bundle of capabilities (an endowment) that is
+necessary, but not sufficient, for sustainable management of a global,
+non-discriminatory Internet numbering and routing infrastructure.
+
+
+Digging into the nuance of the dilemma facing policy makers, regulators, and law enforcement 
+is how the second and third
+of these capabilities function, how
+they are sustained, and most importantly,
+how  state-based actors and operational institutions can \emph{jointly} apply
+their capabilities to sustain a non-discriminatory Internet.
+%
+A number of questions fall out of these dilemmas:
+%
+If these capabilities are not merely ad hoc responses, what are the
+institutions at play?
+% \footnote{These are elaborated briefly in the
+%   next section.}
+%
+Are those institutions stable?
+% \footnote{Yes, thus far they are
+%   stable.  The dissertation frames these institutions as a common
+%   resource system.  Chapter~2 of \citeA{sowell2015finding}
+%   reoperationalizes Ostrom and others work on common resource theory
+%   for application to partially rival information commodities (numbers
+%   and routes).  Ostrom's criteria for common resource systems
+%   \cite[pp. ]{} is
+%   combined with notions of authority from \cite{lake} and
+%   \cite{flathman} to explain how authority has functioned thus far and
+%   challenges to that authority; see Chapter~ of \citeA{sowell2015finding}.} 
+%
+What is the character of political authority around which operational
+institutions' capabilities cohere?
+% \footnote{Building on \cite{} and
+%   \cite{}, authority in the NRS is contingent, substantive-purposive,
+%   rooted in social capital.  The challenge, documented in the
+%   literature on common resource management, is transposing social
+%   capital into political capital in national and global political arenas.}
+%
+How does this mode of political authority promote and sustain the
+credible knowledge assessment necessary for adaptive policy making?
+%
+How can operational institutions and conventional political actors
+coordinate to develop stronger guarantees that 
+the \emph{necessary} bundle of capabilities will be sustained and
+continue to be applied in the public interest?\footnote{In his study
+  of infrastructure writ broadly, \citeA{frischmann2012infrastructure}
+  indicates that infrastructure platforms are inputs into a broad
+  array of public, private, and social goods.  It is in this sense,
+  whether management of the Internet's numbers and routing
+  infrastructure, is maintained in the public interest.  In effect,
+  the more nuanced question is whether changes in the management of
+  this infrastructure diminishes the diversity of goods for which
+  infrastructure platforms serve as a critical input.}
+
+
+
+My dissertation work (Section~\ref{sec:dissertation}) addresses
+the first four questions;
+ongoing 
+research builds on these foundations to
+build bridges between operational policy entrepreneurs managing the
+infrastructure and state-based policy entrepreneurs willing to
+coordinate (see Section~\ref{sec:ongoing}).
+%
+My dissertation reveals that the scope and function of
+resource management authorities are \emph{complementary to},
+rather than \emph{competing with}, state authority. 
+%
+Ad hoc crisis management, credible operational knowledge assessment,
+and adaptive rule-making are NRS authorities' strengths.
+%
+The social
+capital undergirding these strengths does not immediately translate to
+the political capital necessary to engage economies dependent on
+Internet communication or to satisfy those economies' demands for
+stronger guarantees of infrastructure integrity. 
+%
+I apply established
+theory in property rights, common resource
+management,\footnote{Theory and frameworks on property rights are drawn 
+  from \citeA{ostrom1990governing}, \citeA{ostrom1996formation}, and
+  empirical studies in \citeA{cole2012property}, among others.} and
+political authority\footnote{Notions of political authority draw on
+  relational authority presented by \citeA{lake2006relational,
+    lake2009relational, lake2010rightful}; notions of
+  formal-legalistic in contrast to substantive-purposive authority by
+  \citeA{flathman1980authority}, and notions of predatory rule offered
+  by \citeA{levi1989rule}.} to explain
+instances of nascent complementarity identified in empirical studies.
+%  yielding a
+% framework for developing and offering issue-specific
+% prescriptions. 
+%
+For instance, Operation Ghost Click\footnote{Dr. Paul Vixie, one of the
+  architects of Operation Ghost Click in the operational security
+  community, provides an 
+  overview to the Senate Subcommittee on Crime and
+  Terrorism~\cite{vixie2014testimony}.  Vixie was interviewed for
+  my dissertation work and has been instrumental in facilitating
+  access to
+  operational security communities.}
+and operators' 
+``gift boxes''\footnote{Closed security groups with advanced technical
+  forensic capabilities have learned to offer law enforcement ``gift
+  boxes.''  These packages comprise evidence of illegal activity and
+  instructions for reproducing this evidence within law enforcement's
+  sanctioned chain-of-evidence procedures.  Such gift boxes allow
+  closed security groups to offer assistance without becoming
+  entangled as witnesses, exposing the informal social capital that
+  facilitates the collection of such evidence.  While effective, this
+  is an instance of a fragile process that has garnered operators some
+  political capital, but relies heavily on informal social capital.}
+supporting law enforcement investigations are halcyon instances of 
+using endogenous social capital in operational institutions to 
+develop valuable political capital in conventionally legitimate
+political arenas.
+%
+While not taking away from these successes, it is important to note
+these are relatively fragile, ephemeral solutions that, while
+operating in conventional political arenas, still rely more on fragile informal
+social capital than the political capital considered more legitimate
+on the global stage.\footnote{Transposing social capital into
+  political capital is a distinct problem for common resource
+  systems.  See \citeA{birner2003using} for discussion.  For a
+  discussion of social capital in general, in the context of climate
+  change, see \citeA{pelling2005understanding}.  This work assumes
+  Putnam's definition of social capital as reported by Pelling:
+  ``features of social life---networks, norms and trust---that enable
+  participants to act together more effectively to pursue shared
+  objectives,'' (quoted in \cite[p. 310]{pelling2005understanding},
+  attributed to \citeA[pp. 664--665]{putnam1995turning}). The next section
+  (\ref{sec:dissertation}) describes
+  how the NRS is framed as a common resource system. }
+%
+Insights from these nascent solutions highlight 
+legitimacy problems between two different modes of political
+authority, stressing the types of investment in engagement, comity,
+and \emph{joint} capabilities 
+necessary to achieve durable, lasting cooperation.
+
+\section{Adaptation in Common Resource Institutions} \label{sec:dissertation}
+
+% My research inquiry started with a simple question: ``Who manages the
+% Internet infrastructure and how?''
+% %
+% This inquiry evolved into an evaluation of the Internet's numbering
+% and routing
+% system and the political economy of the 
+% institutions that manage it.
+% %
+% This technical, operational, and institutional complex is referred to
+% as the number 
+% resource system (NRS).
+%
+The institutional complex that makes up the NRS has been largely
+under-studied until now; it has happily sustained operations in the
+shadow of more public facing institutions such as ICANN and the IGF.
+%
+Extensive fieldwork, interviews, and archival analysis was necessary
+to surface, and then understand, the nuance of the operational epistemic communities,\footnote{Epistemic
+  community is defined by \citeA[p. 3]{haas1992introduction} as ``a network
+  of professionals with recognized expertise and competence in a
+  particular domain and an authoritative claim to policy-relevant
+  knowledge within that domain or issue-area.''  Academics and
+  professionals such as physicians are canonical instances of
+  epistemic communities whose knowledge base comes from formal education.  I
+  refine this to describe \emph{operational} epistemic communities, those
+  for whom authoritative knowledge is almost exclusively available only through
+  operational experience.  This knowledge has also been described as
+  tacit knowledge.  In the discussion on poltiical authority
+  later in the dissertation, operational authority is further refined
+  to distinguish 
+  the contingent character of authority, a form of what
+  \citeA{flathman1980authority} refers 
+  to as substantive-purposive authority.}
+resource rights management institutions, and knowledge
+assessment processes that sustain connectivity among the network of
+(largely) private networks that comprise the modern Internet.
+%
+% Authority in the NRS is contingent, rooted in a family of
+% consensus-based knowledge 
+% assessment processes necessary to adapt apace with Internet growth and endemic uncertainties.
+%
+The efficiency with which negative externalities such as 
+the Pakistan-YouTube narrative are mitigated is compelling: network operators recognized a
+\emph{global} negative externality, 
+traced it to the origin, and remediated complicit networks in 
+approximately three hours.  
+%
+On a regular basis, cooperation, among employees of nominally competing firms,
+surfaces to repair damage to the \emph{commonly managed routing system on
+which they all depend},\footnote{Ostrom highlights that participants
+in common resource systems often depend on the integrity of the 
+resource for their livelihood.  Similarly, network operators recognize
+that their firms rely on the integrity of Internet to sustain their
+value proposition.}  
+then dissolves into the background noise of ``normal operations.''
+%
+% Lesser known cases of ``organic, ad hoc'' cooperation are common.
+%
+
+Crisis management may arise ad hoc, but the processes and mechanics
+are rooted in  
+distinct rights and obligations\footnote{Rights and obligations in the
+  sense of \citeA{hohfeld1917fundamental}, stressing that no right
+  exists without the incentives necessary to create an obligation on
+  others to respect that right.}
+among, and enforced by, NRS participants and institutions.   
+%
+In Part 1 of the dissertation, reoperationalizing technical mechanics
+in terms of partially-rival information resources, the corresponding
+resource rights, 
+and the externalities that impact the utility of these
+resources\footnote{See Chapter 2 of \citeA{sowell2015finding}}
+drives home the fundamental incentive structures at play, laying the
+foundation for why nominal competitors cooperate to repair the
+numbers and routing system and why these same actors sustain
+institutions such as network operator groups and anti-abuse
+organizations (knowledge commons) documenting the types of
+externalities that damage the integrity of the numbers and routing system.
+%
+Rigorously explaining the rationale and political mechanics of this
+``ad hoc'' crisis 
+management is the first contribution of my dissertation work,
+providing the necessary foundations for the remainder of my
+dissertation work and my ongoing research.
+%
+% General versus specific reciprocity
+%
+
+The second contribution of this work combines my empirical studies
+with the conceptual vernacular established in Part 1 to
+\emph{precisely} describe and explain who NRS participants are and NRS institutional 
+structures.
+%
+In particular, this contribution highlights how institutional rules keep pace with high 
+clockspeed application layer value networks.
+%
+NRS institutions are characteristically, and \emph{necessarily},
+adaptive: each comprises a unique consensus process, animated by a
+diverse set of nominal competitors, creating and adapting
+function-specific rules
+and processes that contribute to routing system integrity.
+%
+Part 2 of the dissertation elaborates empirical studies on the ``close-knit, yet loosely
+organized''\footnote{This phrase is drawn from
+  \citeA{ellickson1991order}, highlighting the character of informal
+  institutions that offer solutions to property conflicts at lower
+  transaction costs than offered by formal-legalistic authorities.}
+communities that evolved into the modern NRS.
+%
+These institutions 
+%
+\begin{inparaenum}[\itshape 1\upshape)]
+  \item share operational knowledge (network operator groups, NOGs); 
+  \item delegate unique network identifiers (Regional Internet
+    Registries, RIRs);
+  \item create neutral markets for exchanging routes and traffic
+    (Internet eXchanges, IXes);\footnote{The market paper is a deeper
+      dive into the value created by actors jointly provisioning local
+      platforms that create a loci for interconnection markets and the
+      institutional norms that sustain these markets.} and  
+  \item limit abusive appropriation of numbers and routing resources,
+    here in service of the messaging industry (first anti-spam, later
+    anti-abuse). 
+\end{inparaenum}
+%
+
+NRS institutions are a contingent social
+order, rooted in shared, authoritative images of system function and
+externalities management.
+%
+Consensus-based knowledge assessment is the means of imbuing shared
+images of system function with durable authority necessary to develop
+rules and engender a mutual enforcement paradigm.\footnote{Again, this draws
+  on Flathman's notion of substantive-purposive  authority~\citeyear{flathman1980authority}.  Under this
+notion of authority, authority is not delegated in the sense of
+conventional principal-agent models describing formal-legalistic
+authority.  Rather, ``the ruled'' comply with substantive-purposive
+authority as long as the ``ruler'' supplies a social order for which
+the gains for compliance is less than the cost.  It is in this sense
+that the order is contingent.}
+%
+Consensus processes evaluate
+the performance of common resource management rules and, when---not if---necessary, adapt these rules to satisfy changing resource demands,
+patterns of use in the broader Internet infrastructure industry, as
+well as the attendant externalities that emerge with these changes.  
+%
+As a mechanism for coping with uncertainties, consensus and
+information sharing within operational communities serves as an
+explicit process for eliciting and evaluating tacit industry knowledge
+across the diverse private firms that comprise the modern Internet.
+
+
+
+Across the NRS, politically fungible voting
+is eschewed as a knowledge assessment process.\footnote{There is a
+  subtle distinction here.  Committees charged with coordinating
+  consensus may vote to determine if the criteria for a consensus has
+  been met based on the contributions of the broader body of
+  participants.  It should be stressed that these coordinators are not
+  voting on the substance of the issue, but rather, whether the
+  criteria for consensus has been met or not independent of the
+  substance of the issue.}
+%  in favor of reconciling constructive conflict
+% among domain experts.
+%
+Under the family of consensus processes identified in the NRS, asserting (voting) ``No, I
+do not agree,'' is insufficient.
+%
+Credible contributions require a rationale that, through evaluative
+policy dialogues 
+that \emph{encourage} constructive
+conflict, either fit or update communities'
+authoritative image of resource system dynamics.
+%
+% Contributions that fail this first test are not considered, they do
+% not contribute to the ongoing consensus.
+%
+%
+Mutual enforcement requires credible commitments from a significant
+proportion of 
+participants that must both adhere to \emph{and} enforce community rules.
+%
+A marginal ``51--49 victory'' is not consensus; moreover, mutual
+enforcement would not function under this level of
+dissent.\footnote{Moreover still, in terms of authority, an indicator
+  of legitimacy, especially under substantive-purposive authority, is
+  the participants \emph{willing} compliance.  Here willingness
+  implies the participant understands and accepts that the value of
+  the social order is 
+  greater than the value of deviance without that order.  This is not
+  always the case in legal-formalistic models, where compliance
+  ultimately rests on the legitimate use of force by the authority.}
+%
+As such, consensus often demands $>70$\% of credible contributors agree,
+building commitment by reconciling technical critiques with dissenting minority
+contributors.
+%
+
+In addition to maintaining an authoritative image of system function,
+institutional norms and rules shaping daily operations are the pragmatic products of knowledge assessment processes.
+%
+Each distinct institution comprises function-specific
+constitutional, 
+collective choice, and operational rules\footnote{These classes of rules are
+  drawn from \citeA[pp. 50--55]{ostrom1990governing}.} for 
+\begin{inparaenum}[\itshape 1\upshape)]
+  \item managing the facilities supporting unique identifier
+    delegation and routing system function and 
+  \item sustaining knowledge commons necessary for management and
+    mitigation of negative externalities.
+\end{inparaenum}
+%
+%
+% Thus far, these
+% institutions have served as stable loci of infrastructure management.
+Anticipation and evaluation in the consensus process is essential to adaptive
+capability, framed as a form of joint knowledge assessment by
+operational epistemic communities.
+%
+Moreover, diverse representation, comprising experts across industry
+sub-sectors, animated by constructive conflict amongst these experts,
+mediated by consensus processes, makes for a \emph{durable} family of
+\emph{credible} knowledge 
+assessment processes that are
+rare among conventional, politically 
+charged regulatory 
+arrangements.\footnote{See \citeA{mccray2010planned};
+  \citeA{mccray2006adaptation}; \citeA{martin2006anticipation} for
+  studies of knowledge 
+  assessment and adaptation in conventional regulatory contexts.}
+%
+Collectively, these institutions sustain participants'
+\emph{common interests} in jointly provisioned routing system stability.
+%
+
+
+NRS processes described thus far are largely endogenous to the
+operator community.
+%
+Historically the NRS has operated quietly underneath the
+hood. 
+%
+Scoped to \emph{common}
+interests, adaptation and the resulting policy explicitly avoids impinging on public policy.
+%
+In contrast to conventional international regimes, the NRS limits
+the \emph{scope of its authority} to supporting and enhancing routing
+system function.
+%
+Thus far, the NRS's common interests have not run counter to the
+public interest.
+%
+Nonetheless, a path-dependent history of harmonious
+alignment\footnote{Harmonious is used in the sense defined by
+  Keohane: interests are \emph{already} aligned, it is not the product of
+  discord and 
+  compromise that characterizes a cooperative
+  arrangement~\citeyear[pp. 12, 51--57]{keohane2005ah}.  In this case,
+  and to the point, harmony is serendipitous, not by design or
+  pre-conceived intent.} between  
+these common interests and the public interest does not carry the
+same assurances made explicit by alignment resulting from coordination and
+cooperation on jointly defined \emph{shared} interests.
+%
+Some states and state-sanctioned international
+governance organizations see control of NRS facilities as critical to
+preserving their own authority. 
+%
+Predatory claims\footnote{Here predatory refers to Levi's notion of
+  predatory rule~\citeyear[see Chapter 2]{levi1989rule}.  The argument
+  in the dissertation is 
+  that predatory 
+  rule by formal-legalistic authorities will undermine the already
+  contingent substantive-purposive authority that forms the foundation
+  of adaptive capabilities.} to stewardship of routing
+system resources further 
+complicates the alignment problem.  
+
+
+To better understand this alignment problem, the global policy dilemma
+outlined in broad strokes earlier, the concluding
+chapters of the dissertation (Part 3) explore the question: ``Are the
+incentives and resources of NRS 
+institutions commensurate with the aggregate social loss due to a
+partial, or worse yet, systemic, failure?''
+%
+Simply put, absent progress on the explicit assurances and reconciling
+capabilities gaps, the
+answer is no.
+%
+As implied earlier, would-be state principals also fall short.  
+%
+% State-based authorities are severely deficient in basic operational
+% capabilities, the foundation of knowledge assessment necessary for
+% anticipation and adaptation in the NRS.
+%
+Attempts to add, wholesale, the NRS stewardship function to a state's
+portfolio of 
+regulatory interests will expose NRS management processes to
+powerful short-term interests\footnote{This is a canonical instance of
+issue-bundling; Ostrom warns of issue-bundling as a threat to commons-based
+management.} that will inevitably weaken, if not 
+completely undermine, extant credible knowledge assessment and adaptive
+capabilities.  
+%
+In effect, aggressive predatory rule would undermine 
+precisely the characteristics (capabilities \emph{2} and \emph{3}
+above) that make 
+the NRS a valuable 
+steward of the infrastructure.
+
+
+This analysis is not a prediction of adaptive common resource
+management doomed to failure.
+%
+Although neither the NRS, nor state
+authorities, have sufficient capabilities to manage the infrastructure
+on their own, a mix of their capabilities \emph{is sufficient}.   
+%
+The dissertation conclusion frames what explicit assurances
+may look like and the barriers to developing those assurances.
+%
+In particular, the challenge is in establishing comity, a mutual
+recognition of norms and authority among NRS institutions, state-based
+authorities, and international governance organizations.  
+%
+Differences in mode of authority and perceptions of legitimacy
+described earlier---state
+in contrast to operational---further confound developing comity, though.
+
+Developing political capital in the
+global arena is a significant challenge  for the NRS. 
+%
+\emph{Potential} political
+capital comprises 
+credible knowledge assessment and adaptive capacity as the germ of
+authoritative policy advice.\footnote{More precisely, credibility
+  derived from constructive conflict among diverse experts from across
+  industry subdomains is
+  rooted in the social capital that animates operational
+  institutions.  Translating social capital to political capital is
+  not a simple task; see \citeA{birner2003using} for discussion.
+  Explaining and 
+  evaluating strategies for operator communities to develop  
+  political capital broadly characterizes the ongoing research
+  described in Section~\ref{sec:ongoing}.}
+%
+Barriers to explicit assurances identified in NRS studies draw lessons
+from the deconstruction and 
+reconstruction of knowledge in political
+environments,\footnote{See~\citeA{jasanoff1987contested}.}  
+instances of international epistemic
+consensus,\footnote{See~\citeA{haas1989regimes} and
+  \citeA{haas1990obtaining}.} and  
+characteristics of elusive, but effective, 
+adaptation that has survived in conventional regulatory
+environments.\footnote{As before, see \citeA{mccray2010planned};
+  \citeA{mccray2006adaptation}; and \citeA{martin2006anticipation}.}
+%
+Analytically, the dissertation argues the NRS and state authority need not be
+competitors---the two can be quite complementary.  
+%
+Ongoing work builds on the pitfalls of previous efforts, in particular
+short-term usurpation of the others'
+authority.
+%
+The research programs discussed in the next sections are efforts at
+leveraging operational epistemic communities unique knowledge
+assessment capabilities to
+build political capital by providing credible policy advice. 
+
+\section{Bridging the Gap: Bringing Credible Operational
+  Knowledge Assessment to Infrastructure Development and Security
+  Policy Making}  \label{sec:ongoing}  
+
+% \begin{itemize}
+%   \item Building on the foundations established in the dissertation,
+%     narrowing to two particular areas where knowledge
+%     assessment, often buried in operational epistemic knowledge, can
+%     provide credible policy advice.
+%   \begin{itemize}
+%     \item Characterizing the Internet's Infrastructure Topology
+%     \item Monitoring and enforcement in the malware ecosystem
+%   \end{itemize}
+% \end{itemize}
+
+My dissertation provides the foundation for ongoing studies
+that draw on knowledge in operational epistemic
+communities to better understand and develop strategies for
+offering credible policy advice on significant issues facing industry
+and society. 
+%
+Two long term research programs are presented here.
+%
+Each of these represents a multi-year research program that can easily
+keep multiple doctoral students busy.
+
+The first research program builds on studies of institutions sustaining neutral
+interconnection platforms (Internet exchanges) to understand the
+factors shaping the Internet 
+infrastructure's evolving topology.
+%
+The Internet has grown from a simple network of ``dumb pipes'' driven
+by economies of scale, focused on moving massive amounts of data over
+long distances, to a
+sophisticated 
+complex of local, regional, and global marketplaces for provisioning
+interconnection \emph{options} that lower barriers to access
+application layer value networks.\footnote{Here option is used in the
+  sense of a real option in engineering systems.  Real options
+  introduce the \emph{flexibility} to expand a design or assemblage
+  without making the full investment up-front.  Rather, it allows for
+  a delay in the investment until better information on the return is
+  available before ``exercising the option.''  The application to
+  interconnection is elaborated in \citeA{sowell2013tprc}, the market
+  paper.}  
+%
+These options lower the barriers to access and the transaction costs
+of combining an increasingly diverse and 
+disintegrated set 
+of services---content delivery, caching, transport, and interconnection service
+providers, to name a few---in support of application layer value
+networks such as 
+dynamic web applications, video
+delivery, gaming, business-to-business financial transactions,
+e-commerce, e-government, and others.
+%
+These marketplaces, often built atop neutral, regional interconnection
+platforms, are shifting the industry structure from simplistic, carrier-based
+economies of scale to platforms in which options facilitate economies of
+scope that better fit regional economic demand.\footnote{It should be stressed that the platform is the loci 
+  of economies of scope; disintegrated infrastructure  services are
+  increasingly 
+  commodified services that are combined to serve application layer
+  value networks.}
+%
+
+%
+The second research program builds on access to institutions engaged
+in monitoring and
+enforcement in the NRS and messaging system.\footnote{Messaging is the
+  industry term for asynchronous communication platforms such as
+  e-mail, instant messaging, social network messaging tools, and SMS
+  ``text'' messaging.}  
+%
+This work is focused on developing models of malware
+production, from identification of exploits to the command and
+control operations used to transform security externalities into appropriable
+economic and/or political value.
+%
+In addition to providing a holistic model of that illicit ecosystem,
+this model will provide a  unified vernacular comprehensible to policy makers
+as well as being consistent with realities observed by operators.
+%
+This model, the malware value network (MVN), will provide
+policy makers 
+with concepts \emph{based on} cases evaluated by operators, but
+at a level of abstraction akin to familiar value networks such as  drug
+trafficking networks and organized crime networks.
+%
+Such a model  highlights the
+contexts in which government and operators' \emph{joint} capabilities can be 
+applied to their shared interest in eliminating economically and politically
+motivated malware infestations.
+%
+% shared versus common
+%
+
+\subsection{Value Networks Shaping the Topology of the Internet's
+  Infrastructure} \label{sec:topology}
+
+% \begin{itemize}
+
+%   \item Typology of industry roles in a disintegrated Internet
+%     infrastructure
+%   \item Economics of interconnection platforms provisioning
+%     interconnection options
+%   \item Industry clusters as a general model of the 
+
+% \end{itemize}
+
+The baseline for understanding the forces driving
+the Internet's infrastructure topology is a typology of application
+layer value networks and the disintegrated infrastructure 
+services that have evolved to meet the performance demands of those
+value networks.
+%
+Over-simplified two-sided market models often focus on the tension in
+the most generic value network, between
+``content and eyeballs,'' content providers and the ``eyeballs'' that
+consume content. 
+%
+A recent instance, the Netflix-Comcast conflict, illustrates the
+problem: who should pay whom in a value
+network where consumers are paying both sides---content aggregators
+and access networks.\footnote{Access networks are consumer Internet
+  service providers that are the last leg delivering content such as
+  video streams.}
+%
+A major point of contention was over who should pay to reduce
+congestion adversely
+affecting consumer services.
+%
+As it turns out, the culprit was part of the platform.
+%
+Cogent, an intermediary transit provider, knew Netflix would eventually
+shift its massive traffic elsewhere when the conflict was resolved so
+it did not upgrade to accommodate this traffic, instead preferencing
+the traffic of its longer-term customers. 
+%
+
+Unpacking such platforms in these two-sided models is critical to
+understanding industry dynamics.
+% 
+Treating the platform as either a black box or a
+\emph{homogeneous} network of networks glosses over important shifts from
+economies of scale (often regional monopoly) carriers to a more
+disintegrated market where economies of scope is both a better fit and
+creates greater economic value. 
+%
+The increasingly
+disintegrated infrastructure industry comprises diverse 
+commoditized services that generally follow NRS norms, cohering into
+the globally 
+connected communication platform that application layer value networks rely
+on, but as above, 
+there are deviations.  
+%
+Neutral platforms in which
+interconnection options reduce the cost of accessing this market of
+commoditized services engender local economies \emph{of scope} among market
+participants that can be combined to meet the demands of
+applications with diverse performance demands.
+%
+As discussed in \citeA{sowell2013tprc}, the market paper enclosed with
+this application, one value of IX participation is that
+interconnection options lower the transaction costs of mixing and
+matching commoditized services (for uniqueness or redundancy)  by
+reducing measurement costs associated with exploring potential latent
+demand.
+%
+Lowering these costs not only facilitates existing value networks, but
+also lowers the barriers to exploring novel value networks.
+%
+Arguably, this latter also has the collateral benefit of fostering
+innovation in both infrastructure services\footnote{For instance,
+  early on, network transport services once IXes as competition.  Now
+  there is a sub-market for transport services dedicated to facilitating
+  access to multiple IXes as a way to diversify a firm's access to
+  regional and global  interconnection markets.} and application layer services.
+
+The next question for this research program is where these markets
+of infrastructure services are located and what does the cost and risk of
+investment in the attendant, \emph{local} platforms look like?
+%
+Interconnection platforms, in particular IXes, are the loci of this shift in
+the Internet's infrastructure topology.
+%
+Following both the study of IXes in the dissertation and
+\citeA{sowell2013tprc}, general platform architectures and
+coarse-grain market outcomes can be specified.
+%
+What is missing is precise cost and risk models for investment in
+these platforms.
+%
+Among conventional infrastructures---energy, transportation,
+water---regulators and policy makers have a rich literature on cost
+and risk models.\footnote{Whether they choose to make use of that
+  literature is, sadly, a much different, and difficult, discussion.}
+%
+Corresponding models for interconnection platforms are largely
+comprised of tacit
+knowledge that is \emph{only} accessible via participation in the subset of
+operational epistemic communities focused on developing and
+participating in interconnection platforms.
+%
+
+I am currently working with a colocation facility and IX provider
+in Boston to develop a first pass at cost and risk models for these
+platforms.
+%
+Having extensive access to this facility, the first specification is
+an effort in 
+``getting generalizable variables right.''
+%
+I have discussed this effort with research subjects from my 
+dissertation research to help generalize this model, extending it to
+admit differences 
+in the scope and scale of interconnection platforms around the
+world.\footnote{My dissertation drew on interviews of actors
+  participating in, designing, and administering IX platforms in the US,
+  Europe, South America, and Asia, drawing on secondary analyses to
+  discuss emerging platforms in Africa.}
+%
+The result is an empirically based model of platform development
+costs that will help regulators and policy makers better understand
+the costs of 
+regional Internet infrastructure development.
+%
+One expected result that has been appealing to infrastructure
+managers in the developing world is the potential for such a cost
+model to express critical paths from the minimal platform necessary
+to demonstrate the value of such a local interconnection market,
+followed by well-known, 
+step-wise improvements as the knowledge economy of a region grows,
+demanding increased local capacity and infrastructure services.
+%
+Another benefit for developing regions is avoiding ``gold
+plated'' interconnection platforms (typically affiliated with
+development programs promoted by the ITU, the International
+Telecommunications Union), that are over-provisioned and overly
+complex for the target developing economy.
+
+
+The third component of the work on infrastructure topology is to
+contextualize application layer  value networks, infrastructure
+services, and interconnection platforms within the capabilities of 
+regional economies.
+%
+The objective is to evaluate the fit of a particular interconnection
+platform to existing or emerging industry clusters in a particular
+region.
+%
+As the Internet infrastructure industry has continued to lower
+barriers to leveraging interconnection to enhance existing value
+networks, entrepreneurs in this space are looking for models that can
+help identify latent demand for local interconnection markets.
+%
+For instance, the Open-IX standards organization was initially
+developed to bring European style associational membership IXes to
+second tier US markets, diversifying the interconnection markets
+beyond well-established loci in New York City, Ashburn Virginia,
+Miami, Chicago, Dallas, Los Angeles, and the Bay Area.
+%
+Based on discussions with these actors, primarily the European IXes
+discussed in my dissertation that have since deployed platforms
+in the US, there is an appetite for models that can help identify
+industry clusters in metropolitan statistical areas with latent demand
+for a more robust interconnection market.
+%
+I am currently working on a sequel to \citeA{sowell2013tprc} that
+integrates Porter's industry cluster framework to specify such models. 
+
+
+\subsection{Monitoring and Enforcement: Understanding the Malware
+  Value Network} \label{sec:mvn}
+
+
+Conventional narratives on the costs of malware investigations focus on
+\emph{mitigating the effects} of malware.
+%
+In contrast, remediation is fundamentally about identifying and
+eliminating the value proposition, the illicit commodification and
+directed commercialization of negative externalities.\footnote{Following
+  Coase's early definition, an externality does not necessarily have
+  malicious intent.  It may be a na{\"{i}}ve spillover effect.  In contrast,
+  security externalities in software markets are intentionally
+  identified and exploited to garner economic and/or political value.} 
+%
+Closed security groups within operational security communities, spanning
+both network operations and anti-abuse operations, continuously
+develop and adapt 
+capabilities for tracking elements of the malware production chain as
+they impact industry operations.\footnote{Impact is the observable.
+  Subsequent investigations and information sharing in closed security groups,
+  across firm boundaries, is where the measurables are developed and
+  exchanged.  Returning to the broader work, the exchange of
+  measurement strategies is part of the knowledge commons produced by
+  the anti-abuse and security operations communities.} 
+%
+This work builds on articulations of these
+experiences\footnote{Articulations in informal interviews,
+  presentations in closed meetings, and secondary analyses published
+  by security firms.} to develop a holistic view of the
+malware production and distribution ecosystem, referred to
+here as the \emph{malware value network (MVN)}.
+%
+To tap this rich operational knowledge base, this work mixes
+surveys, 
+qualitative case studies, and quantitative data collected by
+operational security groups.\footnote{Access to this latter is a
+  function of the rapport I developed with this community
+  during fieldwork.  I am currently Vice-Chair of Growth and
+  Development in the Messaging, Malware, and Mobile Anti-Abuse Working
+  Group (M$^3$AAWG), one of the most prominent of these
+  communities.  I am also participating in a closed group
+  developing a survey of ISPs' malware mitigation and remediation
+  strategies, building on the trust in this closed group to elicit
+  more credible responses than public survey would elicit.}
+%
+A typology of operatioanl mechanisms and contexts is being developed
+and refined to 
+create an empirical model of the larger MVN.
+%
+% Cases is developed to create a holistic model of the 
+% malware value network.
+%
+Such a value network comprises actors, relationships,
+incentive structures, and value flows that characterize the diverse hidden
+markets for externalities supporting the illicit malware production
+industry.
+%
+
+This work combines perspectives from multiple communities
+concerned with combating malware: 
+computer scientists focusing on technical malware function and mechanics; 
+industry actors contending with malware operations;  
+state actors concerned with 
+malware's impact on economic productivity, politically motivated
+attacks, and end users (consumer welfare). 
+%
+% computer scientists traditionally involved in
+% understanding how malware functions; industry actors that must
+% mitigate and, ideally, remediate, operational malware networks; and
+% law enforcement and regulatory agents concerned with the impact on
+% citizens.
+%
+Computer scientists have traditionally contributed 
+the mechanics of exploits, dissecting and explaining how malware functions
+as a piece of software.
+% \footnote{Foreshadow references to Stefan
+%   Savage's work in the literature review and Manos' work.}
+%
+Operators' knowledge of malware operational dynamics, in particular
+strategies for the 
+production, deployment, and control of malware, is less
+well-understood---modeling these operational dynamics is the novel
+contribution that complements computer 
+scientists' focus 
+on technical mechanics.
+%
+This work draws on an under-studied source of
+case studies and first-hand knowledge of the underground malware
+industry.\footnote{It should be clear that first-hand knowledge means
+  case studies from industry actors working to mitigate and remediate
+  malware production chains.  A field study that infiltrates the
+  MVN itself is a much more complicated proposition, not the least
+  concern being the safety of the investigator.}
+%
+The third, and increasingly critical perspective contributing to this
+work, involves the state 
+and law enforcement agencies.  
+%
+A key contribution of the MVN, especially in the context of bridging 
+gaps between operational knowledge and the design of regulatory
+policy, is a common model and vernacular that \emph{enhances}
+cooperation among 
+industry-based anti-abuse communities, law enforcement agencies
+(LEAs), and regulators.
+%
+Such a common vernacular will contribute to developing 
+prescriptions for intervention that each set of actors will find both
+comprehensible, credibly rooted in conceptual models they understand,
+and that highlights how their particular capabilities contribute to \emph{joint}
+interventions. 
+
+
+% Drawing on the these three perspectives  to create a
+% holistic model of the malware value network.
+%
+The MVN model offers three contributions.
+%
+First, it advances the state of knowledge on the end-to-end
+operational dynamics of 
+malware production \emph{as an illicit industry}, focusing on the value
+propositions of malicious actors \emph{within the network} rather than
+technical mechanics or 
+ephemeral, reactive mitigation of negative externalities.
+%
+Second, the MVN provides operators and security
+professionals with a common vernacular, rooted in empirical case
+studies, for comparing and contrasting historical, ongoing, and
+emerging malware production networks.
+%
+Such a framework provides a basis for developing systematic
+remediation strategies across constituencies with complementary
+capabilities, often contending with different
+actors, roles, and effects in the MVN.
+%
+Finally, the MVN provides a coherent abstraction
+familiar to state actors that understand existing illicit value
+networks, such as drug trafficking and 
+organized crime networks.
+%
+Such an abstraction hides technical mechanics that often clutter
+public policy making, highlighting the criminogenic relationships, and
+offering a common lens focusing operators and 
+state actors on efforts to jointly develop more durable remediation
+strategies.
+
+
+
+
+\balance
+% \theendnotes
+
+\bibliographystyle{apacite}
+\bibliography{Dissertation}
+
+\end{document}
