@@ -1,5 +1,8 @@
 .DS_Store
 
+## Word temp files
+~$*
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
