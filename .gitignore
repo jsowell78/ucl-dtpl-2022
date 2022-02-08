@@ -3,6 +3,10 @@
 ## Word temp files
 ~$*
 
+## Emacs temp files
+.\#*
+\#*\#
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
